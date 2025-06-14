@@ -13,7 +13,7 @@ cd app/server
 go run main.go
 
 # Only below endpoints are supported as of now
-/ - GET
-/echo/123 - GET
-/user-agent - GET
+/ - GET \n
+/echo/123 - GET \n
+/user-agent - GET \n
 /files/file_123 - GET & POST
